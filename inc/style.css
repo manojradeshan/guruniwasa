@@ -12,8 +12,8 @@ li {
 
 body {
   font-family: "Cormorant Garamond", serif;
-  font-family: "Merriweather Sans", sans-serif;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Merriweather Sans", sans-serif;
+  font-family: "Montserrat", sans-serif; */
 }
 
 .row.bg-img::before {
@@ -37,7 +37,7 @@ h1.main-title {
   position: relative;
   padding-top: 25%;
   color: #604626;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 400;
   line-height: 1em;
   padding-left: 10%;
@@ -58,4 +58,8 @@ img.guruniwasa-logo {
 
 .home-contact ul li {
   display: inline-block;
+}
+
+.home-icon {
+  color: #604626;
 }
