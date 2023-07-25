@@ -1,3 +1,5 @@
+/* home css start */
+
 a {
   text-decoration: none;
   color: #fff;
@@ -60,6 +62,169 @@ img.guruniwasa-logo {
   display: inline-block;
 }
 
+.navbar-nav,
+.home-contact a,
 .home-icon {
   color: #604626;
 }
+
+.nav-link.active {
+  color: #352610;
+}
+
+section#about-us::before {
+  content: ""; /* Required for the pseudo-element */
+  position: absolute; /* Position the pseudo-element absolutely within the container */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url("../inc/img/Terachers_Meeting/Guru_Niwasa_1.jpg"); */
+  background-attachment: fixed;
+  background-color: #fff; /* Set the background color to match the image's background */
+  opacity: 0.2; /* Set the desired opacity */
+  z-index: -1; /* Place the pseudo-element behind the content */
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+/* home css end */
+
+/* about us css start */
+
+/* about us css end */
+
+/* about us css start */
+
+/* about us css end */
+
+/* footer css start */
+
+.footer-wrapper h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #b3bbc1;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.footer1 p,
+.footer2 p,
+.footer3 ul li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.Subscribe-form {
+  border-bottom: 2px solid #ffffff7a;
+  margin-bottom: 25px;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+.footer4 input {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  padding: 0;
+  background-color: #0ff0;
+  line-height: 2.5em;
+  height: 30px;
+  text-transform: none;
+  font-size: 14px;
+  width: 90%;
+  color: #fff;
+}
+
+svg:not(:root).svg-inline--fa {
+  font-size: 16px;
+  color: #fff;
+}
+
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-wrapper a:hover {
+  color: #b3bbc1;
+}
+.hvr-wobble-skew:hover,
+.hvr-wobble-skew:focus,
+.hvr-wobble-skew:active {
+  -webkit-animation-name: hvr-wobble-skew;
+  animation-name: hvr-wobble-skew;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+a.hvr-wobble-skew {
+  border: 2px solid #cececefc;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+i.footer-icon {
+  margin-top: 10px;
+  font-size: 17px;
+  margin-right: 10px;
+  margin-left: 9px;
+}
+
+.footer-wrapper a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none !important;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+.hvr-wobble-skew {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.copyright-wrapper p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  word-spacing: 1px;
+  color: #fff;
+  font-size: 14px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+
+.copyright-wrapper a {
+  color: #000;
+  font-weight: 500;
+}
+
+/* footer css end */
