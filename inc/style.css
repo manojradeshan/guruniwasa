@@ -62,6 +62,17 @@ img.guruniwasa-logo {
   display: inline-block;
 }
 
+.hvr-wobble-skew.home-icon {
+  border: none;
+  width: auto;
+  height: auto;
+}
+
+.post-img img {
+  width: 100%;
+  height: auto;
+}
+
 .navbar-nav,
 .home-contact a,
 .home-icon {
@@ -92,6 +103,24 @@ section#about-us::before {
 /* home css end */
 
 /* about us css start */
+
+
+h2.page-heading {
+  color: #604626;
+  letter-spacing: 2px;
+}
+
+.about-text-en p {
+  color: #604626;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+.about-text-sin p {
+  color: #604626;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
 
 /* about us css end */
 
