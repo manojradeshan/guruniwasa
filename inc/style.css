@@ -196,7 +196,7 @@ h2.page-heading {
 
 .about-text-sin p {
   color: #604626;
-  font-size: 1.3rem;
+  font-size: 1rem;
   letter-spacing: 2px;
 }
 
@@ -391,4 +391,32 @@ a:hover {
   font-weight: 500;
 }
 
-/* footer css end */
+/* footer css end */  
+
+/* responsive css start */
+
+@media screen and (max-width: 576) {
+  .item img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768) {
+  .item img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .item img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .item img {
+    height: 200px;
+  }
+}
+
+/* responsive css end */
