@@ -216,9 +216,9 @@ h2.page-heading {
   margin: 5px;
 }
 
-.item img {
+/* .item img {
   height: 400px;
-}
+} */
 
 .owl-carousel .owl-item img.owl-lazy {
   opacity: 1;
@@ -235,7 +235,7 @@ h2.page-heading {
   text-decoration: none;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .item img {
     height: 200px;
   }
@@ -257,7 +257,7 @@ h2.page-heading {
   .item img {
     height: 200px;
   }
-}
+} */
 
 /* carousel css end */
 
